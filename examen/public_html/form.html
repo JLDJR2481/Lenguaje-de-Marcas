@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="http/www.infojobs.com" method="get" accept-charset="UTF-8">
+            <fieldset>
+                <legend>Registro de nuevo usuario</legend>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for='Name'>Nombres y apellidos</label> <input type="text" id="Name" name="Nombres y apellidos" value="" required><br><br>
+                    <label for='Address'>Dirección</label> <input type="text" id="Address" placeholder="C/ De la abundancia, 1." name="Dirección" value="" required><br><br>
+                    <label for='Phone'>Teléfono</label> <input type="tel" id="Phone" name="Telefono" value="" required><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Información técnica</legend>
+                    <label for="Programador">Programador:</label><br>
+                    Sí<input type="radio" id="Programador" name="Programador1" value=""><br>
+                    No<input type="radio" name="Programador" value=""><br><br>
+
+                    <label for="LLPR">Lenguajes de programación:</label><br>
+                    Java<input type="checkbox" id="LLPR" name="LLPR1" value="">
+                    Python<input type="checkbox" name="LLPR1" value="">
+                    Rust<input type="checkbox" name="LLPR1" value="">
+                    <br><br>
+                    <label for='Description'>Descripción</label><br>
+                    <textarea id="Description" maxlength="200" placeholder="Escribe aquí más detalles."></textarea>
+                    
+                    
+                </fieldset>
+                <br>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Restablecer formulario">
+            </fieldset>
+        </form>
+    </body>
+</html>
