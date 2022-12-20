@@ -1,0 +1,46 @@
+p {
+    color: red;
+}
+
+#par{
+    font-style: italic;
+}
+
+a[href]:visited{
+    color: #CC3300;
+}
+
+span{
+    font-size: 32px;
+    background-color: yellow;
+}
+
+.especial1{
+    border: 2px solid green;
+    padding: 5px;
+}
+
+#Examen{
+    display: none;
+}
+
+.Foto{
+    margin: 20px;
+    padding: 20px;
+    border: solid blue 2px
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 769px){
+    #Examen{
+        position: absolute;
+        z-index: 1;  
+        display: inline;
+        color: green
+    }
+}
