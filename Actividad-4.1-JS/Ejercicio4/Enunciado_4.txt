@@ -1,0 +1,3 @@
+Aprofitant la pàgina web anterior, afegeix 3 paràgrafs que estaran dins
+d’un element «div», escriu una funció js que permeti eliminar de la pàgina web de
+forma definitiva el primer paràgraf d'aquest "div".

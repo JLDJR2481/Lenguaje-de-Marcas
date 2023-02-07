@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 8</title>
+    <script src="8.js"></script>
+  </head>
+  <body>
+    <form style="text-align: center">
+      <label for="name[]">Primer nombre</label>
+      <input type="text" name="name[]" /><br />
+      <br />
+
+      <label for="name[]">Segundo nombre</label>
+      <input type="text" name="name[]" /> <br />
+      <br />
+
+      <label for="name[]">Tercer nombre</label>
+      <input type="text" name="name[]" /> <br />
+      <br />
+
+      <label for="name[]">Cuarto nombre</label>
+      <input type="text" name="name[]" /> <br />
+      <br />
+
+      <label for="name[]">Quinto nombre</label>
+      <input type="text" name="name[]" /><br />
+      <br />
+
+      <button type="button" onclick="ordenarNombres()">
+        Hazme click para ordenar los nombres introducidos en orden alfabético
+      </button>
+    </form>
+
+    <ul style="list-style: none">
+      <li id="first"></li>
+      <li id="second"></li>
+      <li id="third"></li>
+      <li id="fourth"></li>
+      <li id="last"></li>
+    </ul>
+  </body>
+</html>

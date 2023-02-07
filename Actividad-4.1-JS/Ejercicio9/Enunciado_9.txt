@@ -1,0 +1,5 @@
+Crea un formulari que demani dues cadenes de text (utilitzant dos
+controls independents). Després crea una funció js que concateni aquestes dues
+cadenes i les escrigui a la pàgina web a la part del <footer> de la pàgina. Una
+vegada afegida la nova cadena concatenada, afegeix una classe (amb les propietats
+que vulguis) al footer per canviar el seu estil.

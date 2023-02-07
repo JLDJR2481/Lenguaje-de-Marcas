@@ -1,0 +1,3 @@
+Afegeix un "h2" a la pàgina web anterior. Després crea una funció js que
+permeti canviar el text d'aquest "h2", demanant el nou text per pantalla. Enllaça la
+funció des d’un botó, amb l’esdeveniment «onclick»

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="10.js"></script>
+
+    <title>Ejercicio 10</title>
+  </head>
+  <body>
+    <form style="text-align: center">
+      <fieldset>
+        <label for="nombre">Nombre</label><br />
+        <input type="text" id="nombre" required /><br /><br /><br />
+
+        <label for="primera_nota">Nota del 1er trimestre</label><br />
+        <input
+          type="number"
+          id="primera_nota"
+          max="10"
+          min="0"
+          required
+        /><br /><br /><br />
+
+        <label for="segunda_nota">Nota del 2º trimestre</label><br />
+        <input
+          type="number"
+          id="segunda_nota"
+          max="10"
+          min="0"
+          required
+        /><br /><br /><br />
+
+        <label for="tercera_nota">Nota del 3er trimestre</label><br />
+        <input
+          type="number"
+          id="tercera_nota"
+          max="10"
+          min="0"
+          required
+        /><br /><br />
+        <button type="button" onclick="calcularMedia()">
+          Calcula la media
+        </button>
+      </fieldset>
+    </form>
+
+    <p id="media"></p>
+  </body>
+</html>

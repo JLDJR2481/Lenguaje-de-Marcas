@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 6</title>
+    <script src="6.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <ul>
+        <li>Patata</li>
+        <li>Zanahorias</li>
+        <li>Tomates</li>
+      </ul>
+    </header>
+
+    <section>
+      <h1>canviarem la imatge</h1>
+      <p>
+        Si passes el ratolí per damunt la imatge, en veuras una altra de
+        diferent.
+      </p>
+      <img
+        id="cambiante"
+        src="futurama.jpg"
+        alt="Imagenes cambiantes de series de Matt Groening"
+        onmouseover="cambioImagen()"
+        onmouseout="vueltaAtras()"
+      />
+    </section>
+  </body>
+</html>

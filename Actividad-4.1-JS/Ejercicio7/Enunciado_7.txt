@@ -1,0 +1,4 @@
+Crea una web que permeti calcular equivalències entre euros i dòlars. Per
+exemple, si l'usuari introdueix una quantitat en euros el programa ha de mostrar
+l'equivalent en dòlars i a l'inrevés. Per a realitzar la conversió has d’emprar
+javascript.

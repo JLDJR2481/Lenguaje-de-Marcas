@@ -1,0 +1,4 @@
+Crea una funció js que demani 5 noms (des d'un formulari de la pàgina
+web), les guardi dins d’un array, per després afegir cadascun d’aquest noms a la
+pàgina web en forma de llista ordenada. Aquesta llista ha d'anar dins de l’element
+main de la pagina.

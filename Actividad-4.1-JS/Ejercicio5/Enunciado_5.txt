@@ -1,0 +1,13 @@
+Ara crea una una llista (pot ser ordenada o desordenada) amb tres
+elements dins del «header». Crear un CSS amb una classe anomenada "mostrar"
+(que de moment no utilitzaràs), que ha de tenir per exemple, les següents regles:
+
+    ● S'ha de posar a la part més superior de la pàgina.
+    ● Tria un color pel seu text.
+    ● Tria una font de la lletra diferent a la que ve per defecte, i que tengui una
+    grandaria de 1,5rem.
+    
+Després, afegir una funció js que permeti afegir la classe "mostrar" a la llista.
+
+Aquesta funció es cridarà mitjançant l'esdeveniment "onclick" que també es llançarà
+mitjançant un botó.

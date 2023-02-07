@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 9</title>
+    <script src="9.js"></script>
+    <link rel="stylesheet" href="9.css" />
+  </head>
+  <body>
+    <div style="margin-bottom: 500px">
+      <form style="text-align: center">
+        <fieldset>
+          <legend>Deporte y modalidad de sexo favoritos</legend>
+          <label for="deporte">Indica tu deporte favorito</label><br />
+          <input type="text" id="deporte" required name="deporte" /><br />
+          <br />
+
+          <label for="genero">
+            Indica si te gusta más la modalidad femenina o masculina </label
+          ><br />
+          <input
+            type="radio"
+            name="genero"
+            required
+            value="femenino"
+            class="genero"
+          />
+          Femenino
+          <input
+            type="radio"
+            name="genero"
+            required
+            value="masculino"
+            class="genero"
+          />
+          Masculino
+
+          <br />
+
+          <button type="button" onclick="concatenarStrings()">
+            Junta los valores
+          </button>
+        </fieldset>
+      </form>
+    </div>
+    <footer id="foot"></footer>
+  </body>
+</html>

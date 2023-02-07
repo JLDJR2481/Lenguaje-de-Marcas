@@ -1,0 +1,3 @@
+Escriu una funció Javascript que demani 4 números mitjançant pantalles
+emergents i mostri el major dels tres per consola. Afegeix també un botó a la pàgina
+web i crida aquesta funció mitjançant un esdeveniment.

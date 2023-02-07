@@ -1,0 +1,9 @@
+Dins la mateixa pàgina web, dins d'una "section"afegeix:
+
+    ● un «h1», amb el text: "canviarem la imatge",
+    ● un paràgraf amb el text: "Si passes el ratolí per damunt la imatge, en veuràs
+    una altra de diferent"
+    ● i una imatge (la que vulguis).
+
+Després amb una funció Javascript, amb l'esdeveniment «onmouseover», la imatge
+original ha de ser reemplaçada per una altra, i després amb l'esdeveniment «onmouseout», torni a veure-se la imatge original.
